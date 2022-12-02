@@ -1,0 +1,33 @@
+{
+	"name": "bigint-rnd",
+	"version": "1.0.0",
+	"description": "Unbiased and crytpgraplically safe library for generating random BigInt",
+	"main": "bigint-rnd.js",
+	"dependencies": {
+	},
+	"scripts": {
+		"test": "node ./test/test.js"
+	},
+	"engines": {
+		"node": ">= 12.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rinne/node-bigint-rnd.git"
+	},
+	"keywords": [
+		"encryption",
+		"cipher",
+		"bitwise"
+	],
+	"author": {
+		"name": "Timo J. Rinne",
+		"email": "tri@iki.fi",
+		"url": "https://github.com/rinne/"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/rinne/node-bigint-rnd/issues"
+	},
+	"homepage": "https://github.com/rinne/node-bigint-rnd#readme"
+}
