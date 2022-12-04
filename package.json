@@ -1,6 +1,6 @@
 {
 	"name": "bigint-rnd",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Unbiased and crytpgraplically safe library for generating random BigInt",
 	"main": "bigint-rnd.js",
 	"dependencies": {
@@ -16,9 +16,12 @@
 		"url": "git+https://github.com/rinne/node-bigint-rnd.git"
 	},
 	"keywords": [
-		"encryption",
-		"cipher",
-		"bitwise"
+		"crypto",
+		"random",
+		"pseudorandom",
+		"bigint",
+		"secure",
+		"unbiased"
 	],
 	"author": {
 		"name": "Timo J. Rinne",
