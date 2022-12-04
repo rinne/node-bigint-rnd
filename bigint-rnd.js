@@ -3,7 +3,7 @@
 var _rbi;
 var _bb;
 
-if (globalThis && globalThis.crypto && globalThis.crypto.getRandomValues) {
+if ((typeof (globalThis) === 'object') && globalThis && globalThis.crypto && globalThis.crypto.getRandomValues) {
 	_rbi = function(bits) {
 		if (bits < 1) {
 			return 0n;
